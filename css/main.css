@@ -1301,8 +1301,9 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #DCD9D4;
-		background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+		background-color: #589094;
+		/*background-color: #DCD9D4;
+		background-image: linear-gradient(to right, #868f96 0%, #596164 100%);*/
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
 		overflow-y: scroll;
