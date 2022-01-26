@@ -578,9 +578,6 @@
 							$e.removeData(key);
 
 					}
-
 			});
-
 	};
-
 })(jQuery);

@@ -20,6 +20,16 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+	.thumbnail:hover {
+		position:relative;
+		top:-25px;
+		left:-35px;
+		width:500px;
+		height:auto;
+		display:block;
+		z-index:999;
+	}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -1046,6 +1056,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
 
 			.row {
 				display: flex;

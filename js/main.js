@@ -52,10 +52,8 @@
 
 				// Get panel, link.
 					if (window.location.hash) {
-
 				 		$panel = $panels.filter(window.location.hash);
 						$link = $nav_links.filter('[href="' + window.location.hash + '"]');
-
 					}
 
 				// No panel/link? Default to first.
